@@ -15,6 +15,9 @@ function projectOpen(target_id) {
         case 'mern-5':
             window.open("https://todo-by-nodeandmongodb.onrender.com/")
             break
+        case 'mern-6':
+            window.open("https://segnux-test.onrender.com/")
+            break
 
         case 'react-1':
             window.open("https://daily-note-tracker.onrender.com/")
@@ -82,3 +85,4 @@ function projectOpen(target_id) {
     // window.open("https://www.w3schools.com");
     // console.log(target_id)
 }
+

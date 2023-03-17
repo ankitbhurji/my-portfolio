@@ -91,6 +91,31 @@ img {
 
 .align{
   text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  /* text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite; */
+}
+.heading{
+  width: 40%;
+  margin: 0 auto 0 auto;
+  background: linear-gradient(to right, #FFF 20%, #FFB03A 30%, #FFF 40%);
+  background-size: 200% auto;
+  background-clip: text;
+    text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite;
+}
+@keyframes shine {
+  to {
+      background-position: 200% center;
+  }
 }
 
 
@@ -107,7 +132,7 @@ body{
 
 .container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 420px;
   grid-gap: 40px;
   width: 1020px;

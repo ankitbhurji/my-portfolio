@@ -1,21 +1,24 @@
 function projectOpen(target_id) {
     switch(target_id){
         case "mern-1":
-            window.open("https://dreamy-store-app-frontend.onrender.com/")
+            window.open("https://job-area.onrender.com/")
             break;
-        case 'mern-2':
-            window.open("https://centralized-file-manager-app.onrender.com/")
+        case "mern-2":
+        window.open("https://dreamy-store-app-frontend.onrender.com/")
             break;
         case 'mern-3':
+            window.open("https://centralized-file-manager-app.onrender.com/")
+            break;
+        case 'mern-4':
             window.open("https://ma-frontend.onrender.com/")
             break
-        case 'mern-4':
+        case 'mern-5':
             window.open("https://blog-by-nodeandmongodb.onrender.com/")
             break
-        case 'mern-5':
+        case 'mern-6':
             window.open("https://todo-by-nodeandmongodb.onrender.com/")
             break
-        case 'mern-6':
+        case 'mern-7':
             window.open("https://segnux-test.onrender.com/")
             break
 
